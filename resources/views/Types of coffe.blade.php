@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -81,7 +81,7 @@
         <h2>ركن القهوة المختصة ☕</h2>
         <div class="items">
             
-            <!-- المنتج الأول -->
+            المنتج الأول
             <div class="item-card">
                 <div class="icon">☕</div>
                 <h3>اسبريسو</h3>
@@ -89,7 +89,7 @@
                 <div class="price">25,000 ل.س</div>
             </div>
 
-            <!-- المنتج الثاني -->
+            <!-- المنتج الثاني
             <div class="item-card">
                 <div class="icon">🥛</div>
                 <h3>لاتيه</h3>
@@ -98,7 +98,7 @@
             </div>
 
             <!-- المنتج الثالث -->
-            <div class="item-card">
+            <!-- <div class="item-card">
                 <div class="icon">🧊</div>
                 <h3>كولد برو</h3>
                 <p>قهوة مقطرة ببطء بالماء البارد لمدة 12 ساعة لانتعاش لا مثيل له.</p>
@@ -109,4 +109,7 @@
     </div>
 
 </body>
-</html>
+</html>  --> -->
+@foreach($products as $product)
+<li>{{$product}}</li>
+@endforeach
