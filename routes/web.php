@@ -12,3 +12,4 @@ Route::get('/products' ,[ProductController::class,"index"]);
 Route::get('/Types_of_coffe' ,[Types_of_coffeController::class,"result"]);
 Route::get('/Typess_of_coffe' ,[Types_of_coffeController::class,"index"]);
 Route::get('/Types_of_cars' ,[ArrayController::class,"indexx"]);
+Route::get('/test' ,[ProductController::class,"store"]);
